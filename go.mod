@@ -1,6 +1,7 @@
 module github.com/entrepeneur4lyf/nextbase
 
 go 1.23
+toolchain go1.24.1
 
 require (
 	github.com/aws/aws-sdk-go-v2 v1.35.0
@@ -24,10 +25,10 @@ require (
 	github.com/spf13/cast v1.7.1
 	github.com/spf13/cobra v1.8.1
 	gocloud.dev v0.40.0
-	golang.org/x/crypto v0.32.0
-	golang.org/x/net v0.34.0
+	golang.org/x/crypto v0.36.0
+	golang.org/x/net v0.38.0
 	golang.org/x/oauth2 v0.25.0
-	golang.org/x/sync v0.10.0
+	golang.org/x/sync v0.12.0
 	modernc.org/sqlite v1.34.5
 )
 
@@ -64,8 +65,8 @@ require (
 	go.opencensus.io v0.24.0 // indirect
 	golang.org/x/image v0.23.0 // indirect
 	golang.org/x/mod v0.22.0 // indirect
-	golang.org/x/sys v0.29.0 // indirect
-	golang.org/x/text v0.21.0 // indirect
+	golang.org/x/sys v0.31.0 // indirect
+	golang.org/x/text v0.23.0 // indirect
 	golang.org/x/tools v0.29.0 // indirect
 	golang.org/x/xerrors v0.0.0-20240903120638-7835f813f4da // indirect
 	google.golang.org/api v0.219.0 // indirect
